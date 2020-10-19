@@ -6,9 +6,3 @@ function makeRandomArray(){
         Math.random()
     ]
 }
-function makeRandomGeneralArray(count){
-    return new Array(count).forEach(function(element){
-        return Math.random();
-    });
-}
-console.log(makeRandomGeneralArray(4))
